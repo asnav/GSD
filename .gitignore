@@ -1,0 +1,9 @@
+//
+//  .gitignore
+//  GSD
+//
+//  Created by Asaf Navon on 5/30/25.
+//
+
+.idea/
+**/xcuserdata/
