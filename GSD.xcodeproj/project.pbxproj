@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		28CEC4B12DE97EB0003BBDE6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 28CEC4B02DE97EA5003BBDE6 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		28B373202DD5DD95003A7834 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		28B373102DD5DD93003A7834 /* GSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B3731F2DD5DD95003A7834 /* GSDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B373292DD5DD95003A7834 /* GSDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CEC4B02DE97EA5003BBDE6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +93,7 @@
 		28B373072DD5DD93003A7834 = {
 			isa = PBXGroup;
 			children = (
+				28CEC4B02DE97EA5003BBDE6 /* .gitignore */,
 				28B373122DD5DD93003A7834 /* GSD */,
 				28B373222DD5DD95003A7834 /* GSDTests */,
 				28B3732C2DD5DD95003A7834 /* GSDUITests */,
@@ -205,6 +211,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 28B373072DD5DD93003A7834;
 			minimizedProjectReferenceProxies = 1;
@@ -225,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CEC4B12DE97EB0003BBDE6 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +350,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -399,6 +408,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

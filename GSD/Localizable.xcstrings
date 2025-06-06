@@ -1,0 +1,89 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "break_message" : {
+      "comment" : "shown when user is during a break period",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Back Soon"
+          }
+        }
+      }
+    },
+    "end_session_button_text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "End Session"
+          }
+        }
+      }
+    },
+    "get_back_to_work_button_text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Back To Work"
+          }
+        }
+      }
+    },
+    "idle_message" : {
+      "comment" : "shown when there is no active session",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Are You Ready?"
+          }
+        }
+      }
+    },
+    "Session %lld" : {
+
+    },
+    "start_a_work_session_button_text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Let's Go!"
+          }
+        }
+      }
+    },
+    "take_a_break_button_text" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take A Break"
+          }
+        }
+      }
+    },
+    "work_message" : {
+      "comment" : "shown when user is during a work session",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get Shit Done"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
